@@ -1,5 +1,6 @@
 package SeleniumSessions;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -23,6 +24,7 @@ public class HandlingWindowsPopuo {
 		driver.findElement(By.linkText("Good PopUp #3")).click();
 		
 		Set<String> handler=driver.getWindowHandles();
+		
 		//set does not store the values on basis of indexes, first value stored on index[0], second on index[1], it is not like that.
 		//to get values from set object , iterator is required
 		//every browser window is associated with unique windowid
@@ -44,6 +46,10 @@ public class HandlingWindowsPopuo {
 		Thread.sleep(2000);
 		System.out.println(driver.getTitle());
 		
+		//if u dont want to use iterator for above code u can also use
+		/*ArrayList<String> hand=new ArrayList<>(handler);
+		hand.get(0);
+		hand.get(1);*/
 		
 		
 		
