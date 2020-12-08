@@ -1,0 +1,15 @@
+<!--comment How to create xml file->Right click on src->click New->click Other->click File->give name eg TestNGXMLRunALLTestCases.xml->Next and Finish->Click Source in bottom-->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Run All Test in one suite">
+<test name="run all classes in one test">
+<classes>
+<class name="TestNGFramework.TestNGInvocationCount"/><!--comment package name.class name-->
+<class name="TestNGFramework.TestNGGAssertions"/>
+</classes>
+
+</test>
+</suite>
+<!--comment right click on TestNGXMLRunALLTestCases.xml in project explorer-click on Run as TestNG suite-->
+
+<!--also check the index.html after running this file-->

@@ -10,5 +10,6 @@
 	<classpathentry kind="lib" path="E:/Project_Work/Selenium/Selenium software/selenium-java-3.141.59 (1)/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="E:/Project_Work/Selenium/Selenium software/JAR APACHE COMMONS IO SCREENSHOT/org.apache.commons.io.jar/org.apache.commons.io.jar"/>
 	<classpathentry kind="lib" path="E:/Project_Work/Selenium/Selenium software/htmlunit-driver-2.43.1-jar-with-dependencies.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,29 @@
+how to create this file(TestNGNotes)-right click on TestNFramework Package->click on New->Click on Other->Click on File->Next and finish
+TestNG-is a Testing New Generation Framework
+it is a Unit testing Framework
+it is used by developers to write their unit level test cases
+JUnit is also used like TestNG
+Automation Engineers can use testNG and integrate into Selenium and can write Selenium Test cases
+TestnG is a very powerful tool which gives a lot of Options and features to design test cases and generate HTML reports
+testNG is open source tool, it is free available in the market, u can download and use it
+it is available in the form of JAR files.
+it is java unit testing framework.
+it gives different annotations. 
+by this u can design priorities(sequence of test cases) of test cases
+u can assign dependency of test cases(one test case depending on another)
+u can do grouping of test cases
+Data provider feature is available in TestNG means u can design test case of login and u can login with eg 10 data set(userid/pswd)
+TDD-Test driven development framework, in agile when developer writing their code, u can design test cases and by testNG u can derive and design testcases in systematic way
+
+Download and installation o testNG
+go to google-type testng plugin for eclipse-click www.toolsqa.com>TestNG-Copy URL(https://dl.bintray.com/testng-team/testng-eclipse-release/6.14.3/) or (http://beust.com/eclipse/) from this site- click on help in eclipse-click Install New Software-enter url in work with and enter-
+wait for TestNg and click on dependecies-Then click Next-Accept Terms and condition- Restart the eclipse
+or
+click Eclipse Marketplace in Help menu of eclipse-enter TestNG in Search- and next-so on
+Right click on Project-properties- java build path-Add Library-click TestNG-Next finish-it will add the TestN jar files
+there is no main method in TestNG class, u can write java codes only
+there are different kind of annotations
+like @BeforeClass import org.testng.annotations.BeforeClass;
+one function(method) must be associated with annotation
+first write method then import
+
